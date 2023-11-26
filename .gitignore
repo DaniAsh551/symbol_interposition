@@ -1,0 +1,4 @@
+libsmallmath.so
+libfakesmallmath.so
+.vscode-ctags
+smallmathtest
