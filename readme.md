@@ -61,6 +61,7 @@ The project consists of two systems:
 
 3. **Run Test with Fake Library (System_b Compatibility):**
    - Run `make run_fake` to execute `smallmathtest` on system_b with symbol interposition.
+   - You can also run `make clean_sys_a_lib` to get rid of the actual `libsmallmath` implementation in system_a. After that `make run` should fail while `make run_fake` still works
 
 4. **Clean Project:**
    - Run `make clean` to remove generated files.
